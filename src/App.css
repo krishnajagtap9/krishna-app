@@ -1,0 +1,27 @@
+.final_div{
+  width: fit-content;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.big_div{
+  width: 99vw;
+}
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}

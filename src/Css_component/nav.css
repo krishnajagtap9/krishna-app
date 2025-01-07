@@ -1,0 +1,30 @@
+#menu.navbar-default {
+    border-bottom: 8px solid rgb(40, 40, 242);
+    overflow: hidden;
+    
+}
+
+
+.logo{
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    top: -10px;
+    mix-blend-mode: multiply;
+}
+#butnX{
+    position: relative;
+    right: 30;
+    top: 20;
+z-index: 3;
+}
+
+
+.navbar-header{
+    height: 10vh;
+}
+
+@media (max-width: 768px) {
+
+
+}

@@ -1,0 +1,58 @@
+
+
+.join{
+    width: 100%;
+    height: 100%;
+    display: flex;
+align-items: flex-start;
+margin-left: 50%;
+
+}
+
+.main > h1{
+    position: relative;
+    left: 25%;
+    top: 20%;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 3vmax;
+
+}
+.Services_box1{
+position: relative;
+top: 200;
+
+}
+.inner_box >ul li{
+    font-size: 1.5vmax;
+}
+.inner_box >ul {
+    list-style-type:disc; 
+
+}
+
+.inner_box >h2{
+    font-size: 2vmax;
+}
+.Services_box2{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+#Services_image{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+.join{
+   margin-left: 0;
+}
+
+.main > h1{
+
+left: 5%;
+}
+}

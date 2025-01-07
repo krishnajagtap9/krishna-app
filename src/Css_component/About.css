@@ -1,0 +1,142 @@
+.whole_page{
+    width: 100%;
+    
+}
+.whole_page section:nth-child(2){
+    background: linear-gradient(to bottom, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
+
+}
+.whole_page section:nth-child(3){
+    background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
+
+}
+
+.whole_page section:nth-child(4){
+    background: linear-gradient(to bottom, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
+
+}
+.small_section1{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
+ 
+}
+
+.small_section1:nth-child(1){
+    margin-top: 70px;
+
+   
+}
+
+.box01{
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.box01 h1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 3.5vmax;
+    margin-bottom: 30px;
+}
+.box01 > p{
+    font-size:2.0vmax;
+    max-width:60%;
+text-align: center;
+    color :black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box01 > img{
+    max-width: 100%;
+    height:40vmax;
+    position: absolute;
+    top: 35%;
+mix-blend-mode: multiply;
+object-fit: contain;
+}
+
+
+
+
+.small_section2{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+display: grid;
+grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+}
+
+
+.box02{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.box02 >img{
+    mix-blend-mode: multiply;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.box02 .card {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+gap: 6%;
+}
+.card > h2{
+    font-size: 2.7vmax;
+}
+
+.card > p{
+    max-width: 60%;
+    font-size: 1.6vmax;
+}
+
+#lastbulb{
+    mix-blend-mode:difference;
+}
+
+
+
+
+.smallsection3{
+
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+display: grid;
+grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+}
+#Climb{
+    mix-blend-mode:multiply;
+}
+.box03{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+.box03 > p{
+    width: 40%;
+    font-size: 1.6vmax;
+}
+.box03 >img{
+    max-width: 100%;
+    height: 40vmax;
+    object-fit: contain;
+
+}
+.box03 >h2{
+    font-size: 2.7vmax;
+
+}

@@ -1,0 +1,43 @@
+
+
+
+#Services_image{
+    object-fit: contain;
+    margin-top: -200px;
+  
+}
+.Services_box1{
+    height: 100%;
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+}
+.Services_box2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner_box{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+.inner_box >p {
+    font-size: 2vmax;
+    color: black;
+}
+#services_butn{
+font-size: 1.2vmax;
+margin-top: 2vmax;
+}

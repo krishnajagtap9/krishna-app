@@ -1,0 +1,116 @@
+html{
+  overflow-x: hidden;
+}
+.big_container {
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
+}
+
+.Service_page1 {
+  width: 100%;
+  height: 90vh;
+  overflow-y: hidden;
+  background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Service_page1 > h1 {
+  position: absolute;
+  top: 130px;
+  color: black;
+}
+
+.Services_box1 {
+  height: 80%;
+  width: 50%;
+}
+
+.Services_box2 {
+  height: 80%;
+  width: 50%;
+}
+
+.inner_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -200px;
+}
+
+#butns{
+  position: relative;
+  top: -100px;
+}
+.inner_box >p{
+  font-size: 1.6vmax;
+  margin-top: 100px;
+}
+.inner_boxs{
+  position: relative;
+  top: 20%;
+}
+.inner_boxs >p{
+width: 50%;
+font-size: 2vmax;
+}
+#Services_image {
+  max-width: 100%;
+  height: auto;
+}
+
+#services_butn {
+  margin-top: 20px;
+  width: 40%;
+  font-size: 1.5vmax;
+}
+#services_butn_2 {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 1.5vmax;
+}
+
+@media (max-width: 768px) {
+  .Service_page1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Services_box1, .Services_box2 {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+  }
+#Services_image {
+ max-width: 100%;
+ height: 40vmax;
+}
+
+
+
+
+  #services_butn {
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Service_page1 > h1 {
+    font-size: 2rem;
+  }
+
+  .inner_box p {
+    font-size: 0.9rem;
+  }
+
+  #services_butn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

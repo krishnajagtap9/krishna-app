@@ -1,0 +1,141 @@
+.section_1 {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .section_1 {
+      flex-direction: row;
+    }
+  }
+  
+  .main_box_1 {
+    height: auto;
+    width: 100%;
+    box-shadow: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .main_box_1 {
+      width: 50%;
+      height: 60vh;
+    }
+  }
+  
+  .container_s {
+    background: linear-gradient(to top, #fdfdfd 0%, #aed2f7 60%, #82bef6 90%, #80b9f7 100%);
+    margin-top: -10px;
+    padding: 20px;
+  }
+  
+  .main_box_1 > p {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2vmax;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .main_box_1 > p {
+      width: 60%;
+      font-size: 1.4vmax;
+      text-align: left;
+    }
+  }
+  
+  #button {
+    position: relative;
+    margin-top: 20px;
+    width: auto;
+    padding: 10px 20px;
+    font-size:2vmax;
+  }
+  
+  @media (min-width: 768px) {
+    #button {
+      left: 10%;
+      top: 20%;
+      width: 30%;
+      height: 10%;
+      font-size: 0.6vmax;
+    }
+  }
+  
+  .triangle,
+  .triangle_2,
+  .triangle_3 {
+    width: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .triangle {
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid rgba(128, 128, 128, 0.208);
+  }
+  
+  .triangle_2 {
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 20vw solid rgba(128, 128, 128, 0.208);
+  }
+  
+  .triangle_3 {
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid rgba(128, 128, 128, 0.208);
+  }
+  
+  @media (min-width: 768px) {
+    .triangle,
+    .triangle_2,
+    .triangle_3 {
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-bottom-width: 300px;
+    }
+  
+    .triangle_2 {
+      border-top-width: 300px;
+    }
+  }
+  
+  .small {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .small {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+  
+  #image_1 {
+    height: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    #image_1 {
+      height: 200px;
+    }
+  }
+  
