@@ -18,7 +18,7 @@ Aos.init({duration:2000})
  useEffect(() => {
    // Options for the Typed.js effect
    const options = {
-     strings: ['web development....'], 
+     strings: ['web development....' ,"Project development....", "graphic designing...","AI/ML Solution..."], 
      typeSpeed: 50, 
      backSpeed: 25,  
      backDelay: 1000, 
