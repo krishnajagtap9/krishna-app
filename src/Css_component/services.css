@@ -52,7 +52,7 @@ margin-top: 100px ;
 
 @media (max-width: 768px) {
  .inner_boxs  {
-margin-left: -240px;
+margin-left: -340px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -68,7 +68,7 @@ text-align: center;
     height: 90%;
     position:relative;
     top:100;
-    left: 100;
+    left: 40;
   }
   .Services_box_2{
     height: 0%;
