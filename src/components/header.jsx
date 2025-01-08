@@ -5,13 +5,35 @@ import Aos from "aos"
 import '../../node_modules/aos/dist/aos.css'
 import { duration } from "@mui/material";
 import {Link} from "react-router"
+import {  useRef } from 'react';
+import Typed from 'typed.js';
 
 export const Header = () => {
  useEffect(()=>{
 Aos.init({duration:2000})
  },[])
  
- 
+ const typedElement = useRef(null);
+
+ useEffect(() => {
+   // Options for the Typed.js effect
+   const options = {
+     strings: ['web development....'], 
+     typeSpeed: 50, 
+     backSpeed: 25,  
+     backDelay: 1000, 
+     startDelay: 500, 
+     loop: true,
+   };
+
+   // Initialize Typed.js on the referenced element
+   const typed = new Typed(typedElement.current, options);
+
+  
+   return () => {
+     typed.destroy();
+   };
+ }, []);
   return (
     <header id="header">
       <div className="intro">
@@ -28,7 +50,8 @@ Aos.init({duration:2000})
                 </h1>
             
                 <h2 id="animation">
-            Web Development
+         
+            <h1> <span ref={typedElement} className="element"></span></h1>
                 </h2>
                
                <Link to="/contactus" id="butn"><Button variant="contained" > Start project</Button></Link>
