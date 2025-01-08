@@ -385,11 +385,15 @@ justify-content: center;
 #testimonials {
   padding: 100px 0;
  
-
-  background: linear-gradient(to top, #fdfdfd 0%, #aed2f7 60%,#82bef6 90%, #80b9f7 100%);
-
+  background: linear-gradient(to bottom, #fdfdfd 0%, #aed2f7 60%,#82bef6 90%, #80b9f7 100%);
 
 
+
+}
+@media (max-width: 768px) {
+#testimonial{
+  width: 60%;
+}
 }
 #testimonials i {
   color: #e6e6e6;
