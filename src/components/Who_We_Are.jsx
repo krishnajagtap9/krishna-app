@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import Button from '@mui/material/Button';
 import Aos from "aos";
 import "../Css_component/Who_We_Are.css";
-import man1 from "../all_images/man1.png";
-import man2 from "../all_images/man2.png";
-import man3 from "../all_images/man3.png";
+import man1 from "../all_images/man1.jpeg";
+import man2 from "../all_images/man2.jpeg";
+import man3 from "../all_images/man3.jpeg";
 
 export const Who_We_Are = () => {
   useEffect(() => {
@@ -13,6 +13,10 @@ export const Who_We_Are = () => {
 
   return (
     <div className="who-we-are-container">
+    <div className="section-title">
+        <h2>Who We Are</h2>
+      </div>
+   
     <div className="team-images">
         <div className="team-image-card" data-aos="fade-right">
           <img src={man1} alt="Team Member 1" className="team-image-img" />
@@ -27,9 +31,7 @@ export const Who_We_Are = () => {
    
    
    
-      <div className="section-title">
-        <h2>Who We Are</h2>
-      </div>
+     
 
       <div className="intro-box">
         <p>
