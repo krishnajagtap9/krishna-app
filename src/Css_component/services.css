@@ -14,7 +14,7 @@ width: 100vw;
   background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
   display: grid;
 grid-template-columns: repeat(auto-fill,minmax(700px,2fr));
-margin-top: 120px ;
+margin-top: 100px ;
 }
 
 
@@ -23,7 +23,7 @@ margin-top: 120px ;
 }
 .Service_page1 >h1{
   position: absolute;
-  top:12%;
+  top:18%;
   left:30%;
   color: black;
 }
