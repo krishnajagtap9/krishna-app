@@ -10,6 +10,7 @@ height: 100%;
 display: grid;
 grid-template-columns: repeat(auto-fill , minmax(750px,1fr));
 justify-content: center;
+overflow-x: hidden;
 
 }
 .join_box1{
@@ -59,6 +60,12 @@ order: 2;
             justify-content: flex-start;
           }  
           .large_page{
-            height: 150vh;
+            height: 100vh;
           }
+          .join{
+            height: 90%;
+          }
+
+
+
 }
