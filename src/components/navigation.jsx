@@ -1,64 +1,83 @@
-import React from "react";
-import "../Css_component/nav.css"
-import logo from "../all_images/logo.png"
-import {Link} from "react-router"
+import React, { useState } from "react";
+import "../Css_component/nav.css";
+import logo from "../all_images/logo.png";
+import { Link } from "react-router-dom";
+import CloseIcon from '@mui/icons-material/Close';
 
-export const Navigation = (props) => {
+export const Navigation = () => {
+  const [press, setPress] = useState(false);
+
+  // Toggling the press state
+  function change_icon_handler() {
+    setPress((prevPress) => !prevPress); // Toggles the state
+  }
+
+  function Menu() {
+    return (
+      <>
+     
+        <span className="sr-only">Toggle navigation</span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+       
+      </>
+    );
+  }
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container" >
+      <div className="container">
         <div className="navbar-header" >
           <button
+           onClick={change_icon_handler}
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
             id="butnX"
           >
-            
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
+             <div id="icon">
+            {press  ? <CloseIcon  /> : <Menu   />}
+            </div>
           </button>
-   
-         <img src={logo} alt=""  className="logo"/>
-    
+
+          <img src={logo} alt="" className="logo" />
         </div>
 
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
-        
         >
-          <div  style={{position:"relative",top:"20px"}}>
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-            <Link to={"/"}  className="page-scroll">Home</Link>
-
-            </li>
-            <li>
-            <Link to={"/About"}  className="page-scroll">About us</Link>
-             
-            </li>
-            <li>
-            <Link to={"/Service"}  className="page-scroll">Services</Link>
-
-            </li>
-            
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-           
-            <li>
-             <Link to={"/contactus"}  className="page-scroll">Contact</Link>
-            </li>
-          </ul>
-            
+          <div style={{ position: "relative", top: "20px" }}>
+            <ul className="nav navbar-nav navbar-right">
+              <li>
+                <Link to={"/"} className="page-scroll">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to={"/About"} className="page-scroll">
+                  About us
+                </Link>
+              </li>
+              <li>
+                <Link to={"/Service"} className="page-scroll">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <a href="#testimonials" className="page-scroll">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <Link to={"/contactus"} className="page-scroll">
+                  Contact
+                </Link>
+              </li>
+            </ul>
           </div>
-          
         </div>
       </div>
     </nav>

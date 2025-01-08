@@ -16,10 +16,13 @@
     position: relative;
     right: 30;
     top: 20;
-z-index: 3;
+    z-index: 3;
 }
 
-
+#icon{
+    position: relative;
+    z-index: -6;
+}
 .navbar-header{
     height: 10vh;
 }
