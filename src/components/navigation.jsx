@@ -3,6 +3,7 @@ import "../Css_component/nav.css";
 import logo from "../all_images/logo.png";
 import { Link } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 export const Navigation = () => {
   const [press, setPress] = useState(false);
@@ -12,35 +13,29 @@ export const Navigation = () => {
     setPress((prevPress) => !prevPress); // Toggles the state
   }
 
-  function Menu() {
-    return (
-      <>
-     
-        <span className="sr-only">Toggle navigation</span>
-        <span className="icon-bar"></span>
-        <span className="icon-bar"></span>
-        <span className="icon-bar"></span>
-       
-      </>
-    );
-  }
+ 
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header" >
+         
           <button
-           onClick={change_icon_handler}
+
+onClick={change_icon_handler} 
+
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
             id="butnX"
           >
-             <div id="icon">
-            {press  ? <CloseIcon  /> : <Menu   />}
-            </div>
+          {press  ? <CloseIcon id="icon"/> : <MenuIcon   id="icon"/>} 
+           
+       
           </button>
+
+
 
           <img src={logo} alt="" className="logo" />
         </div>
