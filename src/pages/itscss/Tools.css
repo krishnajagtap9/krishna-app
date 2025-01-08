@@ -83,7 +83,7 @@ height: 150vh;
     grid-template-columns: repeat(2, 1fr);
   }
   .tools-section{
-    height: 300vh;
+    height: 350vh;
   }
 .tool-card{
   height: auto;
@@ -104,7 +104,7 @@ height: 150vh;
 
 @media (max-width: 768px) {
   .tools-section{
-    height: 300vh;
+    height: 350vh;
   }
   .tools-grid {
     grid-template-columns: 1fr;
