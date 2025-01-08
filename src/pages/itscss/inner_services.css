@@ -49,11 +49,13 @@ ul li {
 @media (max-width: 768px)  {
    .join_box1 {
 order: 2;
+margin-top: -59px;
     }
     
     .join_box2 {
         order: 1;
-    height: 60%;
+    height: 70%;
+
             }
           .inner_box_join{
             align-items: flex-start;
@@ -63,7 +65,7 @@ order: 2;
             height: 100vh;
           }
           .join{
-            height: 90%;
+            height: 70%;
           }
 
 

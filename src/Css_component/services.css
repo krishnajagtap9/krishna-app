@@ -32,11 +32,13 @@ margin-top: 100px ;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .inner_boxs >p{
   width: 50%;
   font-size: 2vmax;
   color: black;
+  
 
 }
 
@@ -50,19 +52,27 @@ margin-top: 100px ;
 
 @media (max-width: 768px) {
  .inner_boxs  {
-margin-left: 20px;
-
-
+margin-left: -240px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 60%;
+text-align: center;
   }
   #laptop{
     max-width: 100%;
     height: 80%;
   }
   .servicesbox1{
-    height: 100%;
+    height: 90%;
+    position:relative;
+    top:100;
+    left: 100;
   }
   .Services_box_2{
     height: 0%;
+    margin-top: 50px;
     align-items: flex-end;
    
   }

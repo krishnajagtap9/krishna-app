@@ -5,7 +5,7 @@ import "../Css_component/Who_We_Are.css";
 import man1 from "../all_images/man1.jpeg";
 import man2 from "../all_images/man2.jpeg";
 import man3 from "../all_images/man3.jpeg";
-
+import {Link} from "react-router-dom"
 export const Who_We_Are = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -37,7 +37,7 @@ export const Who_We_Are = () => {
         <p>
           KodRish Innovation & Solution LLP is committed to empowering businesses and individuals with tailored web development, AI/ML solutions, and impactful designs. With a blend of modern technology and traditional ethos, we deliver solutions that make a difference.
         </p>
-        <Button variant="contained" className="service-button" data-aos="fade" style={{fontSize:"1vmax"}}>All Services</Button>
+        <Button variant="contained" className="service-button" data-aos="fade" style={{fontSize:"1vmax"}}> <Link  style={{color:"white" ,fontSize:"1.5vmax"}} to="/About">About Us  </Link></Button>
       </div>
 
      
