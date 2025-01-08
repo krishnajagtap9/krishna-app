@@ -1,5 +1,6 @@
 .contact_us {
     height: 100vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     align-items: center;
@@ -71,16 +72,28 @@
   
   #contactbutn {
     font-size: 1.4vmax;
+    background-color: rgb(39, 39, 142);
+    color: white;
+    padding: 0.7vmax;
+    width: 40%;
+    font-weight: 700;
+    border-radius: 50px;
+
+  }
+  #text_area{
+ padding: 16px;
+    
   }
   
   @media screen and (max-width: 768px) {
    .contact_us{
     margin-top: 20%;
-
    }
     .contact_box1 {
       margin-top: 5%;
       width: 80%;
+margin-left: 10%;
+
     }
   
     .contact_box2 {
@@ -99,6 +112,8 @@
     .input {
       width: 90%;
     }
+
+    
     
     #contact_image {
       margin-right: 0;

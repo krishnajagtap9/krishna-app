@@ -6,8 +6,7 @@ import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
 import Button from '@mui/material/Button';
 import React, { useEffect } from "react";
 import Aos from "aos";
-import {Link} from "react-router-dom"
-
+import { Link } from "react-router-dom";
 
 export const Services = () => {
   useEffect(() => {
@@ -43,7 +42,7 @@ export const Services = () => {
           </div>
         </div>
         <div className="services-button" data-aos="fade">
-        <Link to="/Service"><Button variant="contained" id="all-services-button">All Services</Button> </Link>  
+          <Link to="/Service"><Button variant="contained" id="all-services-button">All Services</Button> </Link>  
         </div>
       </div>
     </div>

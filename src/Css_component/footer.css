@@ -83,11 +83,9 @@ gap: 10%;
 .content_01 >ul li {
     height: 3vmax;
     width: 3vmax;
-    border-radius: 50%;
     display: flex;
     justify-content:center ;
     align-items: center;
-    box-shadow: 2px 3px 5px black;
   
 }
 

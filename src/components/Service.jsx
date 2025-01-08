@@ -9,20 +9,20 @@ import { Your_vision } from '../pages/Your_vision';
 import Language from "../pages/Tools"
 import "../Css_component/services.css"
 
-const style_input=[
-  {
-    ".MuiInputLabel-root":{
-   fontSize:"1.3vmax",
-   color:"gray",
+// const style_input=[
+//   {
+//     ".MuiInputLabel-root":{
+//    fontSize:"1.3vmax",
+//    color:"gray",
 
 
-    },
-    ".MuiOutlinedInput-root":{
-       fontSize:"1.3vmax"
+//     },
+//     ".MuiOutlinedInput-root":{
+//        fontSize:"1.3vmax"
        
-     }
-    }
-  ]
+//      }
+//     }
+//   ]
 
 
 const Main_Services = () => {
@@ -37,11 +37,13 @@ const Main_Services = () => {
       <div className='Service_page1'>
       <h1 data-aos="fade-down">Our Services</h1>
 
-        <div className="Services_box1" data-aos="flip-down">
-          <img src={laptop_1} alt="Laptop" id='Services_image' />
+        <div className="servicesbox1" data-aos="flip-down">
+        <div className='image_box'>
+          <img src={laptop_1} alt="Laptop"  id='laptop'  />
+          </div>
         </div>
 
-        <div className="Services_box2">
+        <div className="Services_box_2">
           <div className="inner_boxs">
             <p data-aos="fade-down">
               Empowering businesses and individuals with cutting-edge web solutions, graphic designs, and project development assistance.

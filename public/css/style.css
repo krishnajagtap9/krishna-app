@@ -384,7 +384,8 @@ justify-content: center;
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: white;
+ 
+
   background: linear-gradient(to top, #fdfdfd 0%, #aed2f7 60%,#82bef6 90%, #80b9f7 100%);
 
 
@@ -400,6 +401,7 @@ justify-content: center;
   padding: 20px;
   box-shadow: 2px 3px 5px black;
   margin-bottom: 100px;
+  background-color: white;
 
 }
 .testimonial-image {

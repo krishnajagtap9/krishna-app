@@ -4,113 +4,61 @@ html{
 .big_container {
   display: flex;
   flex-direction: column;
-  min-width: fit-content;
+width: 100vw;
+
 }
 
 .Service_page1 {
-  width: 100%;
   height: 90vh;
-  overflow-y: hidden;
+  width: 100vw;
   background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  display: grid;
+grid-template-columns: repeat(auto-fill,minmax(700px,2fr));
+margin-top: 120px ;
 }
 
-.Service_page1 > h1 {
+
+.servicesbox1{
+  height: 100%;
+}
+.Service_page1 >h1{
   position: absolute;
-  top: 130px;
+  top:12%;
+  left:30%;
   color: black;
 }
-
-.Services_box1 {
-  height: 80%;
-  width: 50%;
-}
-
-.Services_box2 {
-  height: 80%;
-  width: 50%;
-}
-
-.inner_box {
+.Services_box_2{
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin-top: -200px;
-}
-
-#butns{
-  position: relative;
-  top: -100px;
-}
-.inner_box >p{
-  font-size: 1.6vmax;
-  margin-top: 100px;
-}
-.inner_boxs{
-  position: relative;
-  top: 20%;
+  justify-content: center;
 }
 .inner_boxs >p{
-width: 50%;
-font-size: 2vmax;
-}
-#Services_image {
-  max-width: 100%;
-  height: auto;
+  width: 50%;
+  font-size: 2vmax;
+  color: black;
+
 }
 
-#services_butn {
-  margin-top: 20px;
-  width: 40%;
-  font-size: 1.5vmax;
+#laptop{
+  height: 100%;
+  position: relative;
+  bottom: 100;
 }
-#services_butn_2 {
-  margin-top: 20px;
-  width: 100%;
-  font-size: 1.5vmax;
-}
+
+
 
 @media (max-width: 768px) {
-  .Service_page1 {
-    flex-direction: column;
-    height: auto;
+ .inner_boxs  {
+
+margin-left: 20px;
+
+
+  }
+  #laptop{
+    max-width: 100%;
+    height: 80%;
   }
 
-  .Services_box1, .Services_box2 {
-    width: 100%;
-    height: auto;
-    margin: 100px 0;
-  }
-#Services_image {
- max-width: 100%;
- height: 40vmax;
-}
 
-
-
-
-  #services_butn {
-    padding: 12px 24px;
-  }
-}
-
-@media (max-width: 480px) {
-  .Service_page1 > h1 {
-    font-size: 2rem;
-  }
-
-  .inner_box p {
-    font-size: 0.9rem;
-  }
-
-  #services_butn {
-    font-size: 1rem;
-    padding: 10px 20px;
-  }
 }

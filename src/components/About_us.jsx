@@ -48,7 +48,7 @@ With expertise in web development, AI/ML solutions, and design, we are dedicated
 </section>
 
 <section className="smallsection3">
-<div className="box03"  data-aos="slide-right" >
+<div className="box03"   data-aos="slide-right" >
 
 <h2>Our Mission</h2>
   <p>To provide innovation ,User-centric and Cost-effective solutions that Transfrom businesses and drive growth.

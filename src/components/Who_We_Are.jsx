@@ -1,70 +1,44 @@
-import CodeIcon from '@mui/icons-material/Code';
-import PhonelinkIcon from '@mui/icons-material/Phonelink';
-import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
-import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
-import Button from '@mui/material/Button';
 import React, { useEffect } from "react";
-import Aos from "aos"
-import "../Css_component/Who_We_Are.css"
-import man1 from "../all_images/man1.png"
-import man2 from "../all_images/man2.png"
-import man3 from "../all_images/man3.png"
-
-
+import Button from '@mui/material/Button';
+import Aos from "aos";
+import "../Css_component/Who_We_Are.css";
+import man1 from "../all_images/man1.png";
+import man2 from "../all_images/man2.png";
+import man3 from "../all_images/man3.png";
 
 export const Who_We_Are = () => {
-  useEffect(()=>{
- Aos.init({duration:2000})
-  },[])
- 
- 
- 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="text-center"  >
-      <div className="container_s">
-        <div className="section-title">
-          <h2>Who We Are</h2>
-        
+    <div className="who-we-are-container">
+    <div className="team-images">
+        <div className="team-image-card" data-aos="fade-right">
+          <img src={man1} alt="Team Member 1" className="team-image-img" />
         </div>
-      
-<div className="section_1">
-<div className="main_box_1">
-  <p>KodRish Innovation & Solution LLP, We Are Committed To Empowering Businesses And Individuals With Tailored Web Development, AI/ML Solutions, And Impactful Designs. With A Blend Of Modern Technology And A Traditional Ethos, We Deliver Solutions That Make A Difference
-  <Button variant="contained"  id="button"  data-aos="fade" > All Services</Button>
+        <div className="team-image-card" data-aos="fade-up">
+          <img src={man2} alt="Team Member 2" className="team-image-img" />
+        </div>
+        <div className="team-image-card" data-aos="fade-left">
+          <img src={man3} alt="Team Member 3" className="team-image-img" />
+        </div>
+      </div>
+   
+   
+   
+      <div className="section-title">
+        <h2>Who We Are</h2>
+      </div>
 
-  </p>
-
-</div>
-<div className="main_box_1">
-
-<div className="small">
-<div class="triangle" data-aos="slide-left">
-  <img src={man1} alt="" id="image_1" />
-</div>
-<div class="triangle_2" data-aos="zoom-in-up">
-<img src={man2} alt="" id="image_1"/>
-
-</div>
-<div class="triangle_3" data-aos="slide-right">
-<img src={man3} alt=""id="image_1" />
-
-</div>
-
-</div>
-
-
-
-</div>
-
-</div>
-
-
-        
+      <div className="intro-box">
+        <p>
+          KodRish Innovation & Solution LLP is committed to empowering businesses and individuals with tailored web development, AI/ML solutions, and impactful designs. With a blend of modern technology and traditional ethos, we deliver solutions that make a difference.
+        </p>
+        <Button variant="contained" className="service-button" data-aos="fade" style={{fontSize:"1vmax"}}>All Services</Button>
+      </div>
 
      
-      
-
-      </div>
     </div>
   );
 };

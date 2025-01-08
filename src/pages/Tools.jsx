@@ -18,7 +18,7 @@ export default function ToolsWeUse() {
   }, []);
 
   return (
-    <section className="tools-section">
+    <section className="tools-section" >
       <h1>Tools We Utilize for Excellence</h1>
       <div className="tools-grid">
         <div className="tool-card" data-aos="fade-up">

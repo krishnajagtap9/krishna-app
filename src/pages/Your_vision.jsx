@@ -17,7 +17,7 @@ export const Your_vision = () => {
     <div id="services_1" className="your-vision-container text-center">
       <div className="vision-content">
         <div className="section-title">
-          <h2>Your Vision, Our Expertise</h2>
+          <h2 style={{fontSize:"2vmax"}}>Your Vision, Our Expertise</h2>
         </div>
         <div className="vision-cards-container">
           <div className="vision-card" data-aos="zoom-out-right">

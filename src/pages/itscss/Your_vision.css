@@ -3,7 +3,6 @@
 .your-vision-container {
     padding: 50px 20px;
     background: linear-gradient(to top, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
-
   }
   
   
@@ -29,7 +28,7 @@
 
   .vision-card {
     width: 23%;
-    height: 350px; 
+    height: 490px; 
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff;

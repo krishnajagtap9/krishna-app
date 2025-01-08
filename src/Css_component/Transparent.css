@@ -1,99 +1,153 @@
-
 #transparent-pricing-section {
-    padding: 50px 20px;
-  background: linear-gradient(to bottom, #fdfdfd 0%, #e6edf4 60%,#82bef6 90%, #80b9f7 100%);
+  background: linear-gradient(to bottom, #fdfdfd 0%, #cde4fb 60%,#73b8f8 90%, #80b9f7 100%);
 
-  }
-  
-  .pricing-title h2 {
-      font-size: 2.5vmax;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pricing-title h2 {
+  font-size: 2.8em;
+  color: #333;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-heading {
+  font-size: 1.8em;
+  color: #5c6bc0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card-content h3 {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.card-content ul {
+  text-align: left;
+  font-size: 1em;
+  color: #777;
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+.card-content ul li {
+  margin-bottom: 10px;
+  font-size: 1vmax;
+}
+
+.buttonbox {
+  margin-top: 30px;
+}
+
+.pricing-button {
+  background: linear-gradient(45deg, #5c6bc0, #3f51b5);
+  color: white;
+  padding: 18px 35px;
+  font-size: 1.4em;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.pricing-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pricing-button:hover {
+  background: linear-gradient(45deg, #3f51b5, #5c6bc0);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-button:hover::before {
+  opacity: 1;
+}
+
+#Call {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#Call:hover {
+  color: white;
+}
+
+@media (max-width: 1024px) {
   .pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
 
   .pricing-card {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 90%;
+    width: 90%;
+    margin: 0 auto;
   }
-  
+
   .card-heading {
-    font-weight: 700;
-    font-size: 1.4vmax;
-    margin-bottom: 15px;
+    font-size: 1.6em;
   }
-  
+
   .card-content h3 {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    font-size: 1.8em;
   }
-  
-  .card-content ul {
-    list-style-type: disc;
-    margin: 10px 0 15px 20px;
-  }
-  
-  .card-content li {
-    margin-bottom: 8px;
-  }
-  
 
   .pricing-button {
-    background-color: #007bff;
-    color: #fff;
-    font-size: 1rem;
-    padding: 10px 20px;
-    border-radius: 5px;
-   
+    font-size: 1.8em;
+    padding: 15px 30px;
+  }
 }
-
-.buttonbox{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  
-    height: 50px;
-
-}
-  
-  .pricing-button:hover {
-    background-color: #0056b3;
-  }
-  
-  #call{
-    color: white;
-  }
-  
- 
-  @media (max-width: 768px) {
-   
-  
-   
-  
-    .card-content h3 {
-      font-size: 0.95rem;
-    }
-  
-    .pricing-button {
-      font-size: 0.9rem;
-      padding: 8px 16px;
-    }
-  }
-  

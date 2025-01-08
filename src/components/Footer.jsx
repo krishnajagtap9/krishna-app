@@ -6,6 +6,7 @@ import image from "../all_images/logo.png"
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import {Link} from "react-router-dom"
 
  const initialState = {
   name: "",
@@ -45,8 +46,7 @@ export const Contact = (props) => {
     <div className="box_1">
       <div className="content">
       <img src={image} alt=""  id="image"/>
-      <h3>email: contact@kodish.com</h3>
-      <h3>Phone:+91987654321 </h3>
+    
 
 
       </div>
@@ -56,10 +56,11 @@ export const Contact = (props) => {
 
 <div className="first_one">
 <ul>
-  <li>Home</li>
-  <li>About Us</li>
-  <li>Services</li>
-  <li>Contact</li>
+
+  <li><Link to="/">Home </Link></li>
+  <li> <Link to="/About"> About Us</Link></li>
+  <li> <Link to="/Service">Services   </Link></li>
+  <li> <Link to="/contactus"> Contact </Link></li>
 </ul>
 </div>
 <div className="second_one">
@@ -91,7 +92,7 @@ export const Contact = (props) => {
       
     </div>
     <div className="box_3">
-      <h3>Copyright © 2024</h3>
+      <h3>Copyright © 2025</h3>
       <h3>KodRish Innovation </h3>
       <h3>& Solution LLP</h3>
     </div>
