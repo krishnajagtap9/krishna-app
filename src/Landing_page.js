@@ -29,7 +29,6 @@ const Landing_page = () => {
       <Services data={landingPageData.Services} />
      <Transparent_pricing/>
 <Who_We_Are/>
-      <Testimonials data={landingPageData.Testimonials} />
 
 
     </div>

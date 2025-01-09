@@ -61,11 +61,11 @@ onClick={change_icon_handler}
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
               <li>
                 <Link to={"/contactus"} className="page-scroll">
                   Contact
