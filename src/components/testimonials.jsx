@@ -43,12 +43,7 @@ export const Testimonials = (props) => {
         "The services offered by KodRish are top-notch. I was particularly impressed by their attention to detail and understanding of my business needs. Great work! thank for this awsome apportunity",
       photo: image_6, // Replace with actual image URL
     },
-    {
-      name: "Ankit Tiwari",
-      experience:
-        "KodRish helped me create a beautiful portfolio website. The team is skilled and communicative, but the project did take slightly longer than expected. Nevertheless, I’m happy with the final result!",
-      photo: image_7, // Replace with actual image URL
-    },
+ 
   ];
 
   return (
