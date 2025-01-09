@@ -37,7 +37,7 @@ export const Who_We_Are = () => {
         <p>
           KodRish Innovation & Solution LLP is committed to empowering businesses and individuals with tailored web development, AI/ML solutions, and impactful designs. With a blend of modern technology and traditional ethos, we deliver solutions that make a difference.
         </p>
-        <Button variant="contained" className="service-button" data-aos="fade" style={{fontSize:"1vmax"}}> <Link  style={{color:"white" ,fontSize:"1.5vmax"}} to="/About">About Us  </Link></Button>
+        <Button variant="contained" className="service-button" data-aos="fade" id="aboutus"> <Link  style={{color:"white" ,fontSize:"1.5vmax"}} to="/About">About Us  </Link></Button>
       </div>
 
      

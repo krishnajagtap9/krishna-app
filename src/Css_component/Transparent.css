@@ -80,21 +80,8 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: inline-block;
   cursor: pointer;
-  position: relative;
 }
 
-.pricing-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
 
 .pricing-button:hover {
   background: linear-gradient(45deg, #3f51b5, #5c6bc0);

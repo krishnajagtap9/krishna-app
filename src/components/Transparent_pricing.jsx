@@ -33,7 +33,7 @@ export const Transparent_pricing = () => {
           </div>
           <div className='buttonbox'>
           <Button variant="contained" className="pricing-button" data-aos="fade">
-          <a href='https://wa.me/+917067954499' id='Call'>
+          <a href='https://wa.me/7067954499' id='Call' target="_blank">
           Book a Call
             </a> 
             </Button>
@@ -54,7 +54,7 @@ export const Transparent_pricing = () => {
           </div>
           <div className='buttonbox'>
           <Button variant="contained" className="pricing-button" data-aos="fade">
-          <a href='https://wa.me/+917067954499' id='Call'>
+          <a href='https://wa.me/7067954499' id='Call' target="_blank">
           Book a Call
             </a> 
             </Button>
@@ -76,7 +76,7 @@ export const Transparent_pricing = () => {
           </div>
           <div className='buttonbox'>
           <Button variant="contained" className="pricing-button" data-aos="fade">
-          <a href='https://wa.me/+917067954499' id='Call'>
+          <a href='https://wa.me/7067954499' id='Call' target="_blank">
           Book a Call
             </a> 
             </Button>
@@ -92,12 +92,13 @@ export const Transparent_pricing = () => {
               <li>Custom AI/ML Application Development</li>
               <li>End-to-End Deployment Support</li>
               <li>Post-Deployment Monitoring (1 Month)</li>
+              
             </ul>
          
           </div>
           <div className='buttonbox'>
           <Button variant="contained" className="pricing-button" data-aos="fade">
-          <a href='https://wa.me/+917067954499' id='Call'>
+          <a  href="https://wa.me/7067954499" id='Call' target="_blank">
           Book a Call
             </a> 
             </Button>
