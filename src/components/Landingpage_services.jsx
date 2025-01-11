@@ -23,22 +23,22 @@ export const Services = () => {
           <div className="service-box" data-aos="slide-left">
             <div className="icon-box"><CodeIcon style={{ fontSize: "4vmax" }} /></div>
             <h3 className="service-title">Web Development</h3>
-            <p className="service-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias harum libero optio fugit quasi facere facilis, earum iure vitae placeat voluptate sit enim temporibus quidem iusto ex incidunt quibusdam!</p>
+            <p className="service-content">Create responsive website  tailored to your business needs </p>
           </div>
           <div className="service-box" data-aos="zoom-in">
             <div className="icon-box"><PhonelinkIcon style={{ fontSize: "4vmax" }} /></div>
             <h3 className="service-title">Project Development</h3>
-            <p className="service-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias harum libero optio fugit quasi facere facilis, earum iure vitae placeat voluptate sit enim temporibus quidem iusto ex incidunt quibusdam!</p>
+            <p className="service-content">Empowering Academic growth with innovative project assistance</p>
           </div>
           <div className="service-box" data-aos="zoom-in">
             <div className="icon-box"><DragIndicatorIcon style={{ fontSize: "4vmax" }} /></div>
             <h3 className="service-title">UI/UX Design</h3>
-            <p className="service-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias harum libero optio fugit quasi facere facilis, earum iure vitae placeat voluptate sit enim temporibus quidem iusto ex incidunt quibusdam!</p>
+            <p className="service-content"> Create visually stunning designs for impactful branding</p>
           </div>
           <div className="service-box" data-aos="slide-right">
             <div className="icon-box"><PsychologyOutlinedIcon style={{ fontSize: "4vmax" }} /></div>
             <h3 className="service-title">AI/ML Solution</h3>
-            <p className="service-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias harum libero optio fugit quasi facere facilis, earum iure vitae placeat voluptate sit enim temporibus quidem iusto ex incidunt quibusdam!</p>
+            <p className="service-content">Delivering cutting-edge AI-Driven solution for Smarter decision-making. </p>
           </div>
         </div>
         <div className="services-button" data-aos="fade">
